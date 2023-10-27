@@ -1,5 +1,6 @@
 import person from '../../../assets/images/about_us/person.jpg'
 import parts from '../../../assets/images/about_us/parts.jpg'
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -14,7 +15,8 @@ const About = () => {
             <h1 className="text-5xl font-bold">We are qualified & of experience in this field</h1>
             <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. </p>
             <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. </p>
-            <button className="btn btn-warning">Get More Info</button>
+            
+            <Link className="btn btn-warning" to="/about">Get More Info</Link>
           </div>
         </div>
       </div>
